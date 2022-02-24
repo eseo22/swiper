@@ -9,7 +9,11 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/style.css">
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script src="js/form.js"></script>
     <script defer src="js/main.js"></script>
+
+
 </head>
 
 <body>
@@ -24,81 +28,87 @@
             <li></li>
         </ul>
         <article class="swiper-wrapper">
-            <div class="swiper-slide about">
+            <div class="swiper-slide about" data-custom-index="0">
                 <div class="inner">
-                    <div class="txt">
-                        
+                    <div class="title">
+                        <h2>WEB PUBLISHER</h2>
+                        <h3>JEON EUNSEO</h3>
                     </div>
-                    <div class="pic"></div>
+                    <div class="profile">
+                        <ul>
+                            <li><strong>Name :</strong> Jeon eunseo</li>
+                            <li><strong>M.P :</strong> 010-5909-8183</li>
+                            <li><strong>E-Mail :</strong> mnm2425@naver.com</li>
+                        </ul>
+                    </div>
+                    
                 </div>
             </div>
-            <div class="swiper-slide js">
+            <div class="swiper-slide js" data-custom-index="1">
                 <div class="inner">
                     <div class="txt">
                         <h2>기업형 웹사이트(Javascript)</h2>
-                        <p>javascript를 활용하여 작업한 웹 사이트입니다. youtube,gallery,join,about의 서브페이지로 구성되어 있으며, youtube api,flickr api, form validation을 적용하였습니다.</p>
+                        <p>javascript를 활용하여 작업한 웹 사이트입니다. youtube, gallery, join, about 서브페이지들이 구성되어 있으며, youtube api, flickr api, form validation을 적용하였습니다.</p>
+                        <a href="https://eseo22.github.io/portfolio_es6/">LINK</a>
                     </div>
-                    <div class="pic"></div>
+                    <div class="pic">
+                        <img src="img/기업형es6 img.png" alt="">
+                    </div>
+                    
                 </div>
             </div>
-            <div class="swiper-slide jquery">
+            <div class="swiper-slide jquery" data-custom-index="2">
                 <div class="inner">
                     <div class="txt">
                         <h2>기업형 웹사이트(jQuery)</h2>
-                        <p>jQuery를 활용하여 작업한 반응형 웹 사이트입니다. department,join,youtube,gallery,location의 서브페이지로 구성되어 있으며 location은 kakao map을 이용하였고 youtube와 gallery 페이지는 flickr,api을 이용하여 동적으로 동영상,이미지를 불러올 수 있게 하였습니다.</p>
+                        <p>jQuery를 활용하여 작업한 반응형 웹 사이트입니다. department,join,youtube,gallery,location의 서브페이지로 구성되어 있으며
+                            location은 kakao map을 이용하였고 youtube와 gallery 페이지는 flickr,api을 이용하여 동적으로 동영상,이미지를 불러올 수 있게
+                            하였습니다.</p>
+                            <a href="https://eseo22.github.io/portfolio/">LINK</a>
                     </div>
-                    <div class="pic"></div>
+                    <div class="pic">
+                        <img src="img/기업img.png" alt="">
+                    </div>
                 </div>
             </div>
-            <div class="swiper-slide isotope">
+            <div class="swiper-slide isotope" data-custom-index="3">
                 <div class="inner">
                     <div class="txt">
                         <h2>Isotope(jQuery)</h2>
                         <p>isotope를 활용하여 만든 그리드 디자인 형태의 반응형 페이지입니다.</p>
+                        <a href="https://eseo22.github.io/portfolio2/">LINK</a>
                     </div>
-                    <div class="pic"></div>
+                    <div class="pic">
+                        <img src="img/isotopeimg.png" alt="">
+                    </div>
                 </div>
             </div>
-            <div class="swiper-slide email">
+            <div class="swiper-slide email" data-custom-index="4">
                 <div class="inner">
                     <div class="txt">
                         <h2>Contact ME</h2>
                         <p>포트폴리오를 봐주셔서 감사합니다</p>
                     </div>
                     <div class="form">
-                        <form action="/" method="get">
+                        <form id="contact-form">
                             <fieldset>
                                 <legend class="h">메일 양식폼</legend>
-                                <ul>
-                                    <li>
-                                        <input type="text" name="name" placeholder="Name">
-                                    </li>
-                                    <li>
-                                        <input type="text" name="phone" placeholder="Phone">
-                                    </li>
-                                    <li>
-                                        <input type="text" name="email" placeholder="Email">
-                                    </li>
-                                    <li>
-                                        <textarea name="message" id="" cols="30" rows="10" placeholder="Message"></textarea>
-                                    </li>
-                                    <li>
-                                        
-                                    </li>
-                                        
-
-                                    
-                                </ul>
+                                
+                                <input type="hidden" name="contact_number">
+                                <input type="text" required placeholder="이름을 입력해주세요" name="to_name">
+                                <input type="text" required placeholder="연락처를 입력해주세요" name="contact">
+                                <input type="email" required placeholder="이메일을 입력해주세요" name="from_name">
+                                <textarea placeholder="문의내용을 입력해주세요." name="message_html" id="message"cols="30" rows="10"></textarea>
                                 <input type="submit" value="SEND">
+
                             </fieldset>
                         </form>
                     </div>
                 </div>
             </div>
-            
+
         </article>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
+        
         <div class="swiper-pagination"></div>
     </section>
 

@@ -51,8 +51,8 @@ fieldset {
     width: 100%;
     height: 100%; }
     #wrap .swiper-wrapper .swiper-slide {
-      width: 70vw;
-      height: 70vh;
+      width: 80vw;
+      height: 80vh;
       position: relative;
       top: 18vh; }
       #wrap .swiper-wrapper .swiper-slide .inner {
@@ -60,91 +60,122 @@ fieldset {
         height: 100%;
         border: 1px solid #fff;
         background-color: rgba(255, 255, 255, 0.5);
-        padding: 40px;
-        font: bold 50px/1 "lato";
+        padding: 50px;
         color: #999;
         backdrop-filter: blur(10px);
         opacity: 0.5;
         transition: opacity 1s; }
       #wrap .swiper-wrapper .swiper-slide.swiper-slide-active .inner {
         opacity: 1; }
-    #wrap .swiper-wrapper .email > .inner {
+    #wrap .swiper-wrapper .about .inner {
       width: 100%;
       display: flex; }
+      #wrap .swiper-wrapper .about .inner .title {
+        width: 50%;
+        height: 201px;
+        position: relative;
+        top: 120px; }
+        #wrap .swiper-wrapper .about .inner .title h2 {
+          font: bold 20px/1 "lato";
+          letter-spacing: 5px;
+          margin-bottom: 15px;
+          margin-left: 10px; }
+        #wrap .swiper-wrapper .about .inner .title h3 {
+          font: bold 50px/1 "lato";
+          letter-spacing: 5px; }
+      #wrap .swiper-wrapper .about .inner .profile {
+        width: 50%;
+        position: relative; }
+        #wrap .swiper-wrapper .about .inner .profile ul {
+          position: absolute;
+          bottom: 0px;
+          right: 0px; }
+          #wrap .swiper-wrapper .about .inner .profile ul li {
+            font: bold 25px/1 "lato";
+            margin-bottom: 20px;
+            letter-spacing: 2px; }
+    #wrap .swiper-wrapper .js > .inner, #wrap .swiper-wrapper .jquery > .inner, #wrap .swiper-wrapper .isotope > .inner {
+      width: 100%;
+      display: flex; }
+      #wrap .swiper-wrapper .js > .inner > .txt, #wrap .swiper-wrapper .jquery > .inner > .txt, #wrap .swiper-wrapper .isotope > .inner > .txt {
+        width: 50%;
+        position: relative;
+        top: 15%; }
+        #wrap .swiper-wrapper .js > .inner > .txt h2, #wrap .swiper-wrapper .jquery > .inner > .txt h2, #wrap .swiper-wrapper .isotope > .inner > .txt h2 {
+          font: bold 24px/1;
+          margin-bottom: 60px; }
+        #wrap .swiper-wrapper .js > .inner > .txt > p, #wrap .swiper-wrapper .jquery > .inner > .txt > p, #wrap .swiper-wrapper .isotope > .inner > .txt > p {
+          width: 90%;
+          font-size: 16px;
+          line-height: 1.4;
+          margin-bottom: 100px; }
+        #wrap .swiper-wrapper .js > .inner > .txt a, #wrap .swiper-wrapper .jquery > .inner > .txt a, #wrap .swiper-wrapper .isotope > .inner > .txt a {
+          display: block;
+          width: 80px;
+          height: 30px;
+          font: 15px/30px 'arial';
+          color: #fff;
+          text-align: center;
+          background-color: #000; }
+      #wrap .swiper-wrapper .js > .inner .pic, #wrap .swiper-wrapper .jquery > .inner .pic, #wrap .swiper-wrapper .isotope > .inner .pic {
+        width: 50%;
+        height: 100%; }
+        #wrap .swiper-wrapper .js > .inner .pic img, #wrap .swiper-wrapper .jquery > .inner .pic img, #wrap .swiper-wrapper .isotope > .inner .pic img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          object-position: top;
+          transition: 2s; }
+          #wrap .swiper-wrapper .js > .inner .pic img:hover, #wrap .swiper-wrapper .jquery > .inner .pic img:hover, #wrap .swiper-wrapper .isotope > .inner .pic img:hover {
+            object-position: bottom; }
+    #wrap .swiper-wrapper .jquery .inner .pic img:hover {
+      transition: 10s; }
+    #wrap .swiper-wrapper .isotope .inner .pic img:hover {
+      transition: 1s; }
+    #wrap .swiper-wrapper .email > .inner {
+      width: 100%;
+      display: flex;
+      font: bold 50px/1 "lato"; }
       #wrap .swiper-wrapper .email > .inner .txt {
-        width: 40%;
+        width: 50%;
         padding-top: 80px; }
         #wrap .swiper-wrapper .email > .inner .txt h2 {
-          font-size: 40px;
-          margin-bottom: 20px; }
+          font-size: 60px;
+          margin-bottom: 40px; }
         #wrap .swiper-wrapper .email > .inner .txt p {
-          font-size: 14px; }
+          font-size: 14px;
+          padding-left: 10px; }
       #wrap .swiper-wrapper .email > .inner .form {
-        width: 60%;
-        padding: 10px 0px; }
+        width: 50%; }
         #wrap .swiper-wrapper .email > .inner .form form {
-          width: 100%; }
-          #wrap .swiper-wrapper .email > .inner .form form fieldset ul {
-            width: 100%; }
-            #wrap .swiper-wrapper .email > .inner .form form fieldset ul::after {
-              content: '';
-              display: block;
-              clear: both; }
-            #wrap .swiper-wrapper .email > .inner .form form fieldset ul li {
-              width: 48%;
-              float: left;
-              margin-right: 0px; }
-              #wrap .swiper-wrapper .email > .inner .form form fieldset ul li input {
-                width: 100%;
-                height: 50px;
-                border: 1px solid #ccc;
-                padding: 14px 18px;
-                font-size: 15px;
-                line-height: 50px;
-                color: #000; }
-              #wrap .swiper-wrapper .email > .inner .form form fieldset ul li:nth-of-type(2) {
-                margin-left: 4%; }
-              #wrap .swiper-wrapper .email > .inner .form form fieldset ul li:nth-of-type(3) {
-                width: 100%;
-                margin-bottom: 14px; }
-              #wrap .swiper-wrapper .email > .inner .form form fieldset ul li:nth-of-type(4) {
-                width: 100%; }
-                #wrap .swiper-wrapper .email > .inner .form form fieldset ul li:nth-of-type(4) textarea {
-                  width: 100%;
-                  height: 200px;
-                  border: 1px solid #ccc;
-                  padding: 14px 18px;
-                  font-size: 15px;
-                  color: #000;
-                  resize: none; }
-          #wrap .swiper-wrapper .email > .inner .form form fieldset input[type=submit] {
+          width: 100%;
+          padding: 40px 50px 40px 0px; }
+          #wrap .swiper-wrapper .email > .inner .form form fieldset input {
             width: 100%;
-            height: 50px;
+            height: 40px;
             border: 1px solid #ccc;
-            background-color: #f5f5f5;
-            font-size: 20px;
-            line-height: 50px; }
-  #wrap .swiper-button-next {
-    top: auto;
-    bottom: 2vh;
-    right: 10vw;
-    transform: scale(0.5);
-    filter: brightness(0%);
-    opacity: 0.7; }
-  #wrap .swiper-button-prev {
-    top: auto;
-    bottom: 2vh;
-    left: auto;
-    right: calc(10vw + 60px);
-    transform: scale(0.5);
-    filter: brightness(0%);
-    opacity: 0.7; }
+            padding: 14px 18px;
+            color: #000;
+            font: 12px/1 "lato"; }
+            #wrap .swiper-wrapper .email > .inner .form form fieldset input:nth-of-type(5) {
+              font: bold 14px/0.5 "lato";
+              letter-spacing: 5px;
+              transform: translateY(-5px); }
+          #wrap .swiper-wrapper .email > .inner .form form fieldset textarea {
+            width: 100%;
+            height: 150px;
+            border: 1px solid #ccc;
+            padding: 14px 18px;
+            font: 12px/1 "lato";
+            color: #000;
+            resize: none;
+            margin-top: 20px; }
   #wrap .swiper-pagination {
     position: absolute;
     left: auto;
     width: auto;
     height: 50px;
-    left: 12vw;
+    left: 6vw;
     top: 8vh; }
     #wrap .swiper-pagination span {
       width: auto;

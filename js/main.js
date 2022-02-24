@@ -1,14 +1,10 @@
 const menu = ["About", "JS Website", "Jquery Website", "Isotope","Contact"];
 const swiper = new Swiper("#wrap", {
-    loop:true,
+    loop:false,
     slidesPerView: "auto",
     centeredSlides: true,
     spaceBetween:80,
     mousewheel:true,
-    navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev"
-    },
     pagination:{
         el:".swiper-pagination",
         type:"bullets",
@@ -21,8 +17,6 @@ const swiper = new Swiper("#wrap", {
 });
 
 const bgs = document.querySelectorAll(".bg li");
-const prev = document.querySelector(".swiper-button-prev");
-const next = document.querySelector(".swiper-button-next");
 const navi = document.querySelectorAll(".swiper-pagination span");
 
 next.addEventListener("click", activation);
@@ -40,10 +34,11 @@ for(let el of navi){
 
 function activation(){
     let item = document.querySelector(".swiper-slide-active");
-    let i = item.getAttribute("data-swiper-slide-index");
+    let i = item.getAttribute("data-custom-index");
 
     for(let el of bgs){
         el.classList.remove("on");
     }
     bgs[i].classList.add("on");
 }
+
