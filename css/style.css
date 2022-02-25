@@ -100,15 +100,14 @@ fieldset {
       #wrap .swiper-wrapper .js > .inner > .txt, #wrap .swiper-wrapper .jquery > .inner > .txt, #wrap .swiper-wrapper .isotope > .inner > .txt {
         width: 50%;
         position: relative;
-        top: 15%; }
+        padding-top: 10%; }
         #wrap .swiper-wrapper .js > .inner > .txt h2, #wrap .swiper-wrapper .jquery > .inner > .txt h2, #wrap .swiper-wrapper .isotope > .inner > .txt h2 {
           font: bold 24px/1;
           margin-bottom: 60px; }
         #wrap .swiper-wrapper .js > .inner > .txt > p, #wrap .swiper-wrapper .jquery > .inner > .txt > p, #wrap .swiper-wrapper .isotope > .inner > .txt > p {
           width: 90%;
           font-size: 16px;
-          line-height: 1.4;
-          margin-bottom: 100px; }
+          line-height: 1.4; }
         #wrap .swiper-wrapper .js > .inner > .txt a, #wrap .swiper-wrapper .jquery > .inner > .txt a, #wrap .swiper-wrapper .isotope > .inner > .txt a {
           display: block;
           width: 80px;
@@ -116,7 +115,9 @@ fieldset {
           font: 15px/30px 'arial';
           color: #fff;
           text-align: center;
-          background-color: #000; }
+          background-color: #000;
+          position: absolute;
+          bottom: 100px; }
       #wrap .swiper-wrapper .js > .inner .pic, #wrap .swiper-wrapper .jquery > .inner .pic, #wrap .swiper-wrapper .isotope > .inner .pic {
         width: 50%;
         height: 100%; }

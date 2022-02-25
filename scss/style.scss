@@ -113,7 +113,7 @@
 				>.txt{
 					width: 50%;
 					position: relative;
-					top: 15%;
+					padding-top: 10%;
 
 					h2 {
 						font: bold 24px/1;
@@ -123,7 +123,6 @@
 						width: 90%;
 						font-size: 16px;
 						line-height: 1.4;
-						margin-bottom: 100px;
 					}
 					a{
 						display: block;
@@ -131,6 +130,8 @@
 						font: 15px/30px 'arial'; color: #fff;
 						text-align: center;
 						background-color: #000;
+						position: absolute;
+						bottom: 100px;
 					}
 				}
 				.pic{

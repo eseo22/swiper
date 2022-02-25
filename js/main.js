@@ -19,8 +19,6 @@ const swiper = new Swiper("#wrap", {
 const bgs = document.querySelectorAll(".bg li");
 const navi = document.querySelectorAll(".swiper-pagination span");
 
-next.addEventListener("click", activation);
-prev.addEventListener("click", activation);
 window.addEventListener("mousewheel", activation);
 swiper.on("slideChangeTransitionEnd", activation);
 
