@@ -117,7 +117,7 @@ fieldset {
           text-align: center;
           background-color: #000;
           position: absolute;
-          bottom: 100px; }
+          bottom: 80px; }
       #wrap .swiper-wrapper .js > .inner .pic, #wrap .swiper-wrapper .jquery > .inner .pic, #wrap .swiper-wrapper .isotope > .inner .pic {
         width: 50%;
         height: 100%; }
