@@ -115,13 +115,13 @@
 					position: relative;
 					padding-top: 10%;
 
-					h2 {
-						font: bold 24px/1;
-						margin-bottom: 60px;
+					>h2 {
+						font: bold 24px/1 "lato";
+						margin-bottom: 40px;
 					}
 					>p{
 						width: 90%;
-						font-size: 16px;
+						font-size: 18px;
 						line-height: 1.4;
 					}
 					a{
@@ -131,7 +131,7 @@
 						text-align: center;
 						background-color: #000;
 						position: absolute;
-						bottom: 80px;
+						bottom: 50px;
 					}
 				}
 				.pic{
@@ -182,7 +182,7 @@
 
 					form {
 						width: 100%;
-						padding: 40px 50px 40px 0px;
+						padding: 0px 50px 40px 0px;
 					
 					
 					
