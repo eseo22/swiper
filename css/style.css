@@ -38,21 +38,21 @@ fieldset {
     #wrap .bg li.on {
       opacity: 1; }
     #wrap .bg li:nth-of-type(1) {
-      background-image: url(../img/bg1.jpg); }
+      background-image: url(../img/b.jpg); }
     #wrap .bg li:nth-of-type(2) {
-      background-image: url(../img/bg2.jpg); }
+      background-image: url(../img/b2.jpg); }
     #wrap .bg li:nth-of-type(3) {
-      background-image: url(../img/bg3.jpg); }
+      background-image: url(../img/b3.jpg); }
     #wrap .bg li:nth-of-type(4) {
-      background-image: url(../img/bg4.jpg); }
+      background-image: url(../img/b4.jpg); }
     #wrap .bg li:nth-of-type(5) {
-      background-image: url(../img/bg2.jpg); }
+      background-image: url(../img/b5.jpg); }
   #wrap .swiper-wrapper {
     width: 100%;
     height: 100%; }
     #wrap .swiper-wrapper .swiper-slide {
       width: 80vw;
-      height: 80vh;
+      height: 74vh;
       position: relative;
       top: 18vh; }
       #wrap .swiper-wrapper .swiper-slide .inner {
@@ -139,12 +139,13 @@ fieldset {
       font: bold 50px/1 "lato"; }
       #wrap .swiper-wrapper .email > .inner .txt {
         width: 50%;
-        padding-top: 80px; }
+        padding: 50px; }
         #wrap .swiper-wrapper .email > .inner .txt h2 {
           font-size: 60px;
           margin-bottom: 40px; }
         #wrap .swiper-wrapper .email > .inner .txt p {
-          font-size: 14px;
+          font-size: 18px;
+          font-weight: normal;
           padding-left: 10px; }
       #wrap .swiper-wrapper .email > .inner .form {
         width: 50%; }
@@ -153,7 +154,7 @@ fieldset {
           padding: 40px 50px 40px 0px; }
           #wrap .swiper-wrapper .email > .inner .form form fieldset input {
             width: 100%;
-            height: 40px;
+            height: 50px;
             border: 1px solid #ccc;
             padding: 14px 18px;
             color: #000;
@@ -164,7 +165,7 @@ fieldset {
               transform: translateY(-5px); }
           #wrap .swiper-wrapper .email > .inner .form form fieldset textarea {
             width: 100%;
-            height: 150px;
+            height: 170px;
             border: 1px solid #ccc;
             padding: 14px 18px;
             font: 12px/1 "lato";
@@ -176,7 +177,7 @@ fieldset {
     left: auto;
     width: auto;
     height: 50px;
-    left: 6vw;
+    left: 8vw;
     top: 8vh; }
     #wrap .swiper-pagination span {
       width: auto;
@@ -184,7 +185,8 @@ fieldset {
       background-color: transparent;
       border-radius: 0px;
       margin-left: 60px;
-      opacity: 0.7; }
+      opacity: 0.7;
+      font-size: 20px; }
       #wrap .swiper-pagination span.swiper-pagination-bullet-active {
         opacity: 1;
         font-weight: bold; }
