@@ -61,7 +61,7 @@ fieldset {
         border: 1px solid #fff;
         background-color: rgba(255, 255, 255, 0.5);
         padding: 50px;
-        color: #999;
+        color: #222;
         backdrop-filter: blur(10px);
         opacity: 0.5;
         transition: opacity 1s; }
@@ -100,14 +100,14 @@ fieldset {
       #wrap .swiper-wrapper .js > .inner > .txt, #wrap .swiper-wrapper .jquery > .inner > .txt, #wrap .swiper-wrapper .isotope > .inner > .txt {
         width: 50%;
         position: relative;
-        padding-top: 10%; }
+        padding-top: 5%; }
         #wrap .swiper-wrapper .js > .inner > .txt > h2, #wrap .swiper-wrapper .jquery > .inner > .txt > h2, #wrap .swiper-wrapper .isotope > .inner > .txt > h2 {
           font: bold 24px/1 "lato";
           margin-bottom: 40px; }
         #wrap .swiper-wrapper .js > .inner > .txt > p, #wrap .swiper-wrapper .jquery > .inner > .txt > p, #wrap .swiper-wrapper .isotope > .inner > .txt > p {
           width: 90%;
-          font-size: 18px;
-          line-height: 1.4; }
+          font-size: 16px;
+          line-height: 1.5; }
         #wrap .swiper-wrapper .js > .inner > .txt a, #wrap .swiper-wrapper .jquery > .inner > .txt a, #wrap .swiper-wrapper .isotope > .inner > .txt a {
           display: block;
           width: 80px;
